@@ -1,0 +1,123 @@
+.basket{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f8f9fa;
+    height: 80px;
+    width: 100%;
+    color: black;
+    margin-left: 24px;
+}
+.counter{
+    height: 25px;
+    width: 50px;
+    background-color: #17a2b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text{
+    font-size: 20px;
+}
+.manager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reflesh{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+}
+#reflesh:hover{
+    border: 1px solid green;
+}
+#reset{
+    height: 50px;
+    width: 50px;
+    background-color: #7EBCFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+    margin-left: 10px;
+
+}
+#reset:hover{
+    border: 1px solid #7EBCFF;
+}
+#add{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#add:hover{
+    border: 1px solid grey;
+}
+#subtraction{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: turquoise;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+#subtraction:hover{
+    border: 1px solid turquoise;
+}
+#sayac{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc107;
+    color: black;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    
+}
+#trash{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#trash:hover{
+    border: 1px solid red;
+
+}
+.product{
+
+    margin-top:10px;
+}

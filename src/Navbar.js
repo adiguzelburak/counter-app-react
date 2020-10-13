@@ -1,19 +1,10 @@
-import React,{useState} from "react";
-import count from "./List";
-function Navbar() {
-  
-  const [total,setTotal] = useState(0);
-  
-  
-   if (count > 0){
-    setTotal((response) => response + 1)
-   }
+import React from "react";
 
-
+function Navbar(props) {
   return (
     <div className="basket">
-      <i class="fas fa-shopping-cart fa-2x"></i>
-      <div className="counter">{total}</div>
+      <i className="fas fa-shopping-cart fa-2x"></i>
+  <div className="counter">{props.tot}</div>
       <div className="text">Items</div>
     </div>
   );
